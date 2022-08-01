@@ -11,3 +11,4 @@ This is a school project. The idea was to make a program that could facilitate t
  
  The program would while running would look something like this
 
+![image](https://user-images.githubusercontent.com/89484377/182249865-eda5b877-2832-4455-ba92-d6e52a3110f1.png)
