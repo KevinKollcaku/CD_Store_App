@@ -1,0 +1,81 @@
+#welcome-text {
+    -fx-font-size: 28px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+ }
+ #actiontarget {
+   -fx-fill: FIREBRICK;
+   -fx-font-weight: bold;
+   -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+ }
+
+ .pana{
+    -fx-width:50%;
+    -fx-background-color: #ffffb3;
+ }
+
+ .left-border{
+     /*-fx-border-width:10px;*/
+     -fx-border-color: black;
+     -fx-border-padding: 50;
+     -fx-border-style: outset;
+     -fx-background-color: gold;
+     -fx-padding-top: 50px;
+     -fx-width:30%;
+     -fx-:40px;
+  /* padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px */
+     /* -fx-margin-top: 10px;
+  -fx-margin-bottom: 20px;
+  -fx-margin-right: 30px;
+  -fx-margin-left: 40px; */
+ }
+ 
+ .button {
+     -fx-background-color: 
+         #c3c4c4,
+         linear-gradient(#d6d6d6 50%, white 100%),
+         radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+     -fx-background-radius: 30;
+     -fx-background-insets: 0,1,1;
+     -fx-text-fill: black;
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+ }
+ .button:hover {
+     -fx-background-color: 
+         #d3d4d4,
+         linear-gradient(#c6c6ff 70%, white 100%),
+         radial-gradient(center 50% -40%, radius 200%, #c6c6ff 45%, rgba(210,210,210,0) 50%);
+ }
+
+
+ .login-but{
+     -fx-background-color: teal;
+     -fx-background-radius: 0,0,0,0;
+     -fx-padding: 2 20 2 20;
+     -fx-text-fill: white;
+     -fx-border-width: 0px;
+     -fx-font-size: 12px;
+     -fx-text-aling:center;
+ }
+
+ .login-but:hover{
+     -fx-background-color: darkslategray;
+ }
+
+ .cancle-but{
+    -fx-background-color: rgb(39, 221, 221);
+    -fx-background-radius: 0,0,0,0;
+    -fx-padding: 2 20 2 20;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+    -fx-font-size: 12px;
+    -fx-text-aling:center;
+}
+
+.cancle-but:hover{
+    -fx-background-color: rgb(42, 238, 238);
+}
+
